@@ -6,6 +6,7 @@ import { MainPage } from "@pages/Main";
 import { AboutPage } from "@pages/About";
 import { SkillsPage } from "@pages/Skills";
 import { WorkPage } from "@pages/Work";
+import { Contoh } from "@pages/contoh";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/skills" element={<SkillsPage />} />
           <Route path="/work" element={<WorkPage />} />
+          <Route path="/contoh" element={<Contoh />} />
         </Routes>
       </ThemeProvider>
     </>
